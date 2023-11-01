@@ -1,0 +1,44 @@
+#content{
+    width:80%;
+    margin:80px auto;
+    border:10px solid #1a0dd6;
+}
+
+form {
+    width:50%;
+    margin:20px auto;
+}
+
+form div{
+
+    margin-top: 5px;
+     
+}
+#img-div{
+    width:80%;
+    padding:30px;
+    margin:50px auto;
+    border: 4px solid #cbcbcb;
+
+}
+
+#img_div:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.content img{
+    float:left;
+    margin:10px;
+    width:300px;
+    height:140px;
+    border: 3px solid #120505;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+      
+}
+
+.club{
+    text-align:center
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
+        <title>Know Your College </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;900&family=Noto+Sans:wght@100;200;400;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,300;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+                <div class="navlinks" id="Navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href=" index.html">HOME</a></li>
+                        <li><a href="maps.html">MAP</a></li>
+                        <li><a href="clubs.php">CLUBS</a></li>
+                        <li><a href=" ">ACADEMICS</a></li>
+                       
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+<div class="textbox">
+    <div class="title">
+    <h1 >College Compass!</h1>
+    </div>
+    <p>some text here about website</p>
+    <a href="" class="herobtn" >Click to know more</a>
+</div>
+
+
+    </section>
+    
+
+    <!-----Academics---->
+    <section class="academics">
+        <h1>Our College</h1>
+        <p>our college info</p>
+
+        <div class="row">
+            <div class="acadrow">
+                <img src="images/book.jpg">
+                <div class="layer">
+                    <h3>Books</h3>
+                </div>
+            </div>
+            <div class="acadrow">
+                <img src="images/question.jpg">
+                <div class="layer">
+                    <h3>Question Papers</h3>
+                </div>
+            </div>
+            <div class="acadrow">
+                <img src="images/syllabus.jpg">
+                <div class="layer">
+                    <h3>Syllabus</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---Clubs-->
+
+    <section class="clubs">
+        <h1>Student Clubs</h1>
+        <p>wide array of clubs </p>
+
+        <div class="row">
+            
+            <div class="col">
+                <img src="images/rtr.jpg">
+                <h3>Rotaract</h3>
+                <p>-----about info----</p>
+            </div>
+            <div class="col">
+                <img src="images/csi.jpg">
+                <h3>CSI</h3>
+                <p>-----about info----</p>
+            </div>
+            <div class="col">
+                <img src="images/sns.jpg">
+                <h3>Sanskriti</h3>
+                <p>-----about info----</p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    
+
+
+     <!------Javascript for Toggle Menu------->   
+    <script>
+        var navLinks=document.getElementById("Navlinks");
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>    
+
+    </body>
+</html>
+
+<!--------Footer -->
+<section class="footer">
+    <h4>About Us </h4>
+    <p>info</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    
+</div>    
+</section>
